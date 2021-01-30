@@ -3,9 +3,15 @@
 [node name="TestLmao" type="Node"]
 
 [node name="Label" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
-text = "Can you see mee?"
+margin_left = 15.0
+margin_top = 19.0
+margin_right = 370.0
+margin_bottom = 101.0
+text = "Welcome to Rocks In Space
+
+I am Pebble, your friendly guide through space.
+
+All you need to do is play with rocks and explore space."
 __meta__ = {
 "_edit_use_anchors_": false
 }
