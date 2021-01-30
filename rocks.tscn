@@ -1,5 +1,72 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://imports/rockscolours.glb" type="PackedScene" id=1]
+[ext_resource path="res://imports/Bump1.wav" type="AudioStream" id=2]
+[ext_resource path="res://imports/Bump2.wav" type="AudioStream" id=3]
 
 [node name="rockscolours" instance=ExtResource( 1 )]
+
+[node name="Stone Stack" parent="." index="2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0839969, 0.326425, 0.106682 )
+
+[node name="Stone Stack008" parent="." index="3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0985184, 0.452608, 0.169824 )
+
+[node name="Stone Stack009" parent="." index="4"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0535096, 0.753778, 0.0407645 )
+
+[node name="Stone Stack010" parent="." index="5"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.318466, 0.428578, -0.0646871 )
+
+[node name="Stone Stack011" parent="." index="6"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19021, 0.838845, -0.130154 )
+
+[node name="Stone Stack012" parent="." index="7"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.129028, 0.271366, 0.249484 )
+
+[node name="Stone Stack013" parent="." index="8"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.490161, 0.162589, -0.0737826 )
+
+[node name="Stone Stack014" parent="." index="9"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.202429, 0.26911, 0.273614 )
+
+[node name="Stone Stack016" parent="." index="10"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.110403, 0.154505, -0.151723 )
+
+[node name="Stone Stack017" parent="." index="11"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.136873, 0.369314, 0.0673316 )
+
+[node name="Stone Stack018" parent="." index="12"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0839969, 0.326425, 0.106682 )
+
+[node name="Stones2A" parent="." index="13"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0037664, 0.336544, -0.00846427 )
+
+[node name="Stones2A001" parent="." index="14"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.336926, 0 )
+
+[node name="Stones3A" parent="." index="15"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.241172, 0.469111, -0.177636 )
+
+[node name="Stones3A001" parent="." index="16"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375713, 0.469111, 0.0420637 )
+
+[node name="Stones3A002" parent="." index="17"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.553917, 0.469111, -0.472533 )
+
+[node name="Stones3A003" parent="." index="18"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375713, 0.469111, -0.423618 )
+
+[node name="Stones3A004" parent="." index="19"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.375713, 0.504284, -0.177636 )
+
+[node name="Stones3A005" parent="." index="20"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.283911, 0.469111, -0.0574264 )
+
+[node name="Bump1" type="AudioStreamPlayer3D" parent="." index="21"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.108662, 0.272106, 0.138983 )
+stream = ExtResource( 2 )
+
+[node name="Bump2" type="AudioStreamPlayer3D" parent="." index="22"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00897356, 0.501424, 0.316981 )
+stream = ExtResource( 3 )
