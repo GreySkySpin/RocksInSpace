@@ -85,7 +85,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7206, 2.53775, 2.31526 )
 shape = SubResource( 3 )
 
 [node name="CSGMesh" type="CSGMesh" parent="Rock004/CollisionShape"]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 1.03866, -0.846557, -1.60028 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 1.05902, -0.846557, -0.549354 )
 mesh = ExtResource( 4 )
 
 [node name="Rock005" type="RigidBody" parent="."]
@@ -107,7 +107,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.19352, 6.3524, 4.75814 )
 shape = SubResource( 3 )
 
 [node name="CSGMesh" type="CSGMesh" parent="Rock006/CollisionShape"]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.0696421, 0.434478, -0.225473 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 1.55942, 0.434478, -1.13315 )
 mesh = ExtResource( 5 )
 
 [node name="Rock007" type="RigidBody" parent="."]
@@ -144,18 +144,18 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139604, 0.160146, -0.582564
 mesh = ExtResource( 18 )
 
 [node name="Rock010" type="RigidBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.72882, 6.07822, -1.43368 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Rock010"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.34385, -1.94814, 1.89872 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.160577, 0.755041, 1.89872 )
 shape = SubResource( 3 )
 
 [node name="CSGMesh" type="CSGMesh" parent="Rock010/CollisionShape"]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.482325, -1.9653, -6.58787 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0615253, 0.074554, -0.443632 )
 mesh = ExtResource( 17 )
 
 [node name="Rock011" type="RigidBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.028, -0.411, 0.642 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Rock011"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.02134, 6.82094, 0.881636 )
@@ -177,14 +177,14 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0231276, -0.563222, -0.56888
 mesh = ExtResource( 16 )
 
 [node name="Rock013" type="RigidBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 2.98569, 7.49139 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Rock013"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.06283, 3.17461, 7.34758 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.66137, 0.334496, 0.782547 )
 shape = SubResource( 3 )
 
 [node name="CSGMesh" type="CSGMesh" parent="Rock013/CollisionShape"]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139608, -0.637736, -0.676477 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.148414, -0.798787, -0.943058 )
 mesh = ExtResource( 12 )
 
 [node name="Rock014" type="RigidBody" parent="."]
@@ -199,14 +199,14 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139604, 0.160146, -0.582564
 mesh = ExtResource( 9 )
 
 [node name="Rock015" type="RigidBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 5.58012, 0.641787 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 11.6636, 0.641787 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Rock015"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.19962, 1.66327, 3.56342 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.439, 0.433455, -0.752252 )
 shape = SubResource( 3 )
 
 [node name="CSGMesh" type="CSGMesh" parent="Rock015/CollisionShape"]
-transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.229102, -0.97285, -0.926083 )
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.301681, -0.986741, -0.922239 )
 mesh = ExtResource( 9 )
 
 [node name="Rock016" type="RigidBody" parent="."]
