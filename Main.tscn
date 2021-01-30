@@ -1,7 +1,7 @@
 [gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
-[ext_resource path="res://Speis.png" type="Texture" id=2]
+[ext_resource path="res://nightsky_smudge_stars.png" type="Texture" id=2]
 [ext_resource path="res://assets/Stone Stack008.mesh" type="ArrayMesh" id=3]
 [ext_resource path="res://assets/Stone Stack004.mesh" type="ArrayMesh" id=4]
 [ext_resource path="res://assets/Stone Stack006.mesh" type="ArrayMesh" id=5]
