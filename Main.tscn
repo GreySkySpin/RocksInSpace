@@ -55,7 +55,7 @@ transform = Transform( -0.950771, -0.062124, -0.303604, 0.0690398, 0.912616, -0.
 visible = false
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
-transform = Transform( 0.937385, -0.256201, -0.235945, -0.221265, -0.961211, 0.164669, -0.268982, -0.102152, -0.957713, -0.010848, 6.81657, -8.69739 )
+transform = Transform( 0.966277, -0.035011, -0.255112, 0.0177362, -0.979312, 0.201577, -0.256892, -0.199304, -0.945666, -0.010848, 6.81657, -11.3481 )
 light_energy = 3.57
 
 [node name="Rock001" type="RigidBody" parent="."]
