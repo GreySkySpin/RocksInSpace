@@ -1,6 +1,4 @@
 extends Node
-
-
 onready var lmao = preload("res://TestLmao.tscn")
 
 # Called when the node enters the scene tree for the first time.
