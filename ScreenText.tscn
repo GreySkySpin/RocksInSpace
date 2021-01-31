@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="ScreenText" type="Node"]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Welcome to Rocks in Space.
+
+I am Pebble, your friendly guide through space.
+
+All you need to do is play with rocks and explore space."
+__meta__ = {
+"_edit_use_anchors_": false
+}
