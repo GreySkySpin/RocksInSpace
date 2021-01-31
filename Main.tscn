@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=45 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://nightsky_smudge_stars.png" type="Texture" id=2]
@@ -20,8 +20,27 @@
 [ext_resource path="res://assets/Stone Stack009.mesh" type="ArrayMesh" id=18]
 [ext_resource path="res://assets/Stone Stack018.mesh" type="ArrayMesh" id=19]
 [ext_resource path="res://assets/Stone Stack016.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://materials/Material_017.material" type="Material" id=21]
 [ext_resource path="res://assets/Stone Stack014.mesh" type="ArrayMesh" id=22]
-[ext_resource path="res://audio/SpaceRocks.ogg" type="AudioStream" id=23]
+[ext_resource path="res://audio/SpaceRocksRemastered.ogg" type="AudioStream" id=23]
+[ext_resource path="res://materials/Material_016.material" type="Material" id=24]
+[ext_resource path="res://materials/Material_015.material" type="Material" id=25]
+[ext_resource path="res://materials/Material_014.material" type="Material" id=26]
+[ext_resource path="res://materials/Material_013.material" type="Material" id=27]
+[ext_resource path="res://materials/Material_012.material" type="Material" id=28]
+[ext_resource path="res://materials/Material_011.material" type="Material" id=29]
+[ext_resource path="res://materials/Material_010.material" type="Material" id=30]
+[ext_resource path="res://materials/Material_009.material" type="Material" id=31]
+[ext_resource path="res://materials/Material_019.material" type="Material" id=32]
+[ext_resource path="res://materials/Material_018.material" type="Material" id=33]
+[ext_resource path="res://materials/Material_002.material" type="Material" id=34]
+[ext_resource path="res://materials/Material_007.material" type="Material" id=35]
+[ext_resource path="res://materials/Material_005.material" type="Material" id=36]
+[ext_resource path="res://materials/Material_008.material" type="Material" id=37]
+[ext_resource path="res://materials/Material_001.material" type="Material" id=38]
+[ext_resource path="res://materials/Material_003.material" type="Material" id=39]
+[ext_resource path="res://materials/Material_004.material" type="Material" id=40]
+[ext_resource path="res://materials/Material_006.material" type="Material" id=41]
 
 [sub_resource type="PanoramaSky" id=1]
 panorama = ExtResource( 2 )
@@ -64,6 +83,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0226078, -0.025281, 0.0508236 )
 use_collision = true
 mesh = ExtResource( 10 )
+material = ExtResource( 38 )
 
 [node name="Rock002" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 4.17726, 2.9054 )
@@ -76,6 +96,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.0204058, 0.0950608, -0.0575314 )
 use_collision = true
 mesh = ExtResource( 15 )
+material = ExtResource( 34 )
 
 [node name="Rock003" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.60365, -4.86979 )
@@ -87,6 +108,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.019989, -0.0481786, -0.0112138 )
 use_collision = true
 mesh = ExtResource( 14 )
+material = ExtResource( 39 )
 
 [node name="Rock004" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.45366, -6.72876 )
@@ -98,6 +120,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.0426271, 0.00205672, 0.0766644 )
 use_collision = true
 mesh = ExtResource( 4 )
+material = ExtResource( 40 )
 
 [node name="Rock005" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.03852, 6.29807 )
@@ -109,6 +132,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139608, 0.160146, -0.0427654 )
 use_collision = true
 mesh = ExtResource( 8 )
+material = ExtResource( 36 )
 
 [node name="Rock006" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.20693, 9.51163 )
@@ -120,6 +144,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.088872, -0.0564437, -0.109722 )
 use_collision = true
 mesh = ExtResource( 5 )
+material = ExtResource( 41 )
 
 [node name="Rock007" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 8.2385, 18.3531 )
@@ -132,6 +157,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139608, -0.0762221, -0.0454879 )
 use_collision = true
 mesh = ExtResource( 13 )
+material = ExtResource( 35 )
 
 [node name="Rock008" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
@@ -144,6 +170,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.120738, -0.0264478, 0.0071373 )
 use_collision = true
 mesh = ExtResource( 3 )
+material = ExtResource( 37 )
 
 [node name="Rock009" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
@@ -157,6 +184,7 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139604, 0.160146, 0.0258784
 snap = 0.076
 use_collision = true
 mesh = ExtResource( 18 )
+material = ExtResource( 31 )
 
 [node name="Rock010" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.72882, 6.07822, -1.43368 )
@@ -169,6 +197,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0615253, 0.074554, -0.0263324 )
 use_collision = true
 mesh = ExtResource( 17 )
+material = ExtResource( 30 )
 
 [node name="Rock011" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.028, -0.411, 0.642 )
@@ -181,6 +210,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.0441399, -0.0182762, 0.0141416 )
 use_collision = true
 mesh = ExtResource( 11 )
+material = ExtResource( 29 )
 
 [node name="Rock012" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
@@ -193,6 +223,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0539579, -0.056458, -0.134589 )
 use_collision = true
 mesh = ExtResource( 16 )
+material = ExtResource( 28 )
 
 [node name="Rock013" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 2.98569, 7.49139 )
@@ -205,6 +236,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.148414, -0.0532722, 0.0603514 )
 use_collision = true
 mesh = ExtResource( 12 )
+material = ExtResource( 27 )
 
 [node name="Rock014" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
@@ -217,6 +249,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0 )
 use_collision = true
 mesh = ExtResource( 22 )
+material = ExtResource( 26 )
 
 [node name="Rock015" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 11.6636, 0.641787 )
@@ -229,6 +262,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.301681, -0.986741, -0.903832 )
 use_collision = true
 mesh = ExtResource( 9 )
+material = ExtResource( 25 )
 
 [node name="Rock016" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, -0.410635, 0.641787 )
@@ -241,6 +275,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0.0139608, -0.023783, -0.000632286 )
 use_collision = true
 mesh = ExtResource( 20 )
+material = ExtResource( 24 )
 
 [node name="Rock017" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.95769, 3.38943, 0.641787 )
@@ -253,6 +288,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.0441761, 0.0284762, 0.08044 )
 use_collision = true
 mesh = ExtResource( 7 )
+material = ExtResource( 21 )
 
 [node name="Rock018" type="RigidBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.6896, 10.0717, 0 )
@@ -265,6 +301,7 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -0.149706, 0.0257845, -0.03160
 snap = 0.021
 use_collision = true
 mesh = ExtResource( 19 )
+material = ExtResource( 33 )
 __meta__ = {
 "_editor_description_": ""
 }
@@ -280,6 +317,7 @@ shape = SubResource( 3 )
 transform = Transform( 5, 0, 0, 0, 4.99822, 0.133327, 0, -0.133327, 4.99822, 0.490036, -0.339141, 0.730582 )
 use_collision = true
 mesh = ExtResource( 6 )
+material = ExtResource( 32 )
 
 [node name="DirectionalLight2" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.962066, 0.272818, 0, -0.272818, 0.962066, 0, 4.83854, 19.4464 )
