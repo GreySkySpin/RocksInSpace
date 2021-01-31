@@ -16,7 +16,7 @@ func _ready():
 #	pass
 func _integrate_forces(state):
 #	angular_velocity = Vector3(randf(),randf(),randf())
-#	state.linear_velocity = Vector3(randf(),randf(),randf())
+	state.linear_velocity = Vector3(randf(),randf(),randf())
 	var pos2D = get_viewport().get_camera().unproject_position(self.translation)
 	if pos2D.x <= -100:
 		pos2D.x = get_viewport().get_visible_rect().size.x
