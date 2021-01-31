@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Bump2.wav-428be9445db88ff43e45cd701b26755b.sample"
+path="res://.import/Bump2.wav-f3284290f6d9bd183e81e044a1975b79.sample"
 
 [deps]
 
-source_file="res://imports/Bump2.wav"
-dest_files=[ "res://.import/Bump2.wav-428be9445db88ff43e45cd701b26755b.sample" ]
+source_file="res://audio/Bump2.wav"
+dest_files=[ "res://.import/Bump2.wav-f3284290f6d9bd183e81e044a1975b79.sample" ]
 
 [params]
 
